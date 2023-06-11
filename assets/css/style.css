@@ -9,5 +9,60 @@
 body {
     font-family: 'Jockey One', sans-serif;
     font-weight: 400;
-    color: black;
+    color: #3a3a3a;
+}
+
+/* headings */
+
+h1 {
+    font-family: 'Jockey One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a
+}
+
+/* logotype */
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 75px;
+}
+
+/* navigation bar */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 75px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #3a3a3a;
+    transition: all 0.3s ease 0s;
+}
+
+/* change color */
+#menu a:hover {
+    color: darkred
+}
+
+.active {
+    border-bottom: 2px solid #3a3a3a
+}
+
+/* billboard */
+
+.billbord {
+
 }
