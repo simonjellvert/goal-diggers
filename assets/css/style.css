@@ -21,6 +21,11 @@ h1 {
     color: #3a3a3a
 }
 
+p {
+    font-family: 'Jockey One', sans-serif;
+    color: #3a3a3a
+}
+
 /* logotype */
 
 #logo {
@@ -63,20 +68,36 @@ h1 {
 
 /* billboard */
 
-/*
-.billboard {
-    position: fixed;
-    right: 50px;
-    margin-top: 50px;
+div {
+    display: block;
 }
-*/
 
-.billboard img {
-    width: 1000px;
+.billboard-right {
+    width: 50%;
+    padding-top: 30px;
+    float: right;
+    position: relative;
+
+}
+
+img {
+    width: 100%;
     height: 100%;
-    position: fixed;
-    right: 50px;
-    margin-top: 50px;
-    object-fit: cover;
-    vertical-align: bottom;
+}
+
+/* left article */
+
+#article {
+    margin: 30px;
+    width: 50%;
+    padding-top: 30px;
+    float: left;
+}
+
+.article-left {
+    width: 50%;
+    float: left;
+
+
+
 }
