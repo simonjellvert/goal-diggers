@@ -63,6 +63,20 @@ h1 {
 
 /* billboard */
 
-.billbord {
+/*
+.billboard {
+    position: fixed;
+    right: 50px;
+    margin-top: 50px;
+}
+*/
 
+.billboard img {
+    width: 1000px;
+    height: 100%;
+    position: fixed;
+    right: 50px;
+    margin-top: 50px;
+    object-fit: cover;
+    vertical-align: bottom;
 }
