@@ -59,25 +59,26 @@ p {
 
 /* change color */
 #menu a:hover {
-    color: darkred
+    color: darkred;
+    border-bottom: 1px solid darkred;
 }
 
 .active {
-    border-bottom: 2px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a
 }
 
-/* billboard */
+/* billboard and article */
 
-div {
-    display: block;
+.align {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.billboard-right {
+#billboard-right {
     width: 50%;
     padding-top: 30px;
     float: right;
-    position: relative;
-
 }
 
 img {
@@ -87,17 +88,8 @@ img {
 
 /* left article */
 
-#article {
-    margin: 30px;
+#article-left {
     width: 50%;
     padding-top: 30px;
     float: left;
-}
-
-.article-left {
-    width: 50%;
-    float: left;
-
-
-
 }
