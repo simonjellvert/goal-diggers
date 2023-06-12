@@ -69,27 +69,47 @@ p {
 
 /* billboard and article */
 
-.align {
-    width: 50%;
+#parent {
     display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.child1 {
+    width: 50%;
+    padding-top: 100px;
+    float: left;
     vertical-align: middle;
 }
 
-#billboard-right {
-    width: 50%;
-    padding-top: 30px;
+#child1-heading {
+    padding-left: 75px;
+    text-align: center;
+}
+
+#child1, h2 {
+    font-size: 250%;
+}
+
+.child2 {
+    max-width: 50%;
     float: right;
+    vertical-align: middle;
 }
 
 img {
+    float: right;
     width: 100%;
-    height: 100%;
+    position: relative;
 }
 
-/* left article */
 
-#article-left {
-    width: 50%;
-    padding-top: 30px;
-    float: left;
+/* footer */
+
+footer {
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
