@@ -84,6 +84,7 @@ p {
     display: flex;
     align-items: center;
     height: 800px;
+    overflow: hidden;
 }
 
 .content {
@@ -96,9 +97,12 @@ p {
 
 #container img {
     float: right;
-    width: 50%;
-    height: auto;
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: cover;
 }
+
+/* contact page */
 
 
 /* footer */

@@ -9,3 +9,14 @@ All three pages has a navbar in which you can browse through the pages. I added 
 In the footer I've added a link to our Instagram and a Copyright label.
 
 On the "Partners" page we have a link that sets up an e-mail to our genereal manager if the user is interested in becoming a partner to the team. The pop-up e-mail has a set subject phrase set to "I'm interested in becoming a partner to Goal Diggers".
+
+
+
+References
+
+Inspiration: Kapena.se
+Structure and code: Love Running, CI challenges
+Images "Partners": all websites
+
+Icons: Font Awesome
+Fonts: Google Font
