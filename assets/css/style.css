@@ -83,6 +83,7 @@ p {
 #container {
     display: flex;
     align-items: center;
+    height: 800px;
 }
 
 .content {
@@ -93,9 +94,10 @@ p {
     padding-left: 50px;
 }
 
-img {
+#container img {
     float: right;
     width: 50%;
+    height: auto;
 }
 
 
