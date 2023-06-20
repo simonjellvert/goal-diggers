@@ -68,7 +68,6 @@ p {
     transition: all 0.3s ease 0s;
 }
 
-/* change color */
 #menu a:hover {
     color: #d4a53e;
     border-bottom: 1px solid #d4a53e;
@@ -184,8 +183,11 @@ label {
 footer {
     height: 100px;
     width: 100%;
+    background-color: white;
+    margin-top: 30px;
     bottom: 0;
     text-align: center;
+    position: fixed;
 }
 
 footer p {
@@ -212,11 +214,15 @@ footer p {
 /* sponsors gallery */
 
 #sponsors {
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
     clear: both;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px;
+    margin-bottom: 50px;
 }
 
 #sponsors img {
@@ -235,8 +241,12 @@ footer p {
     transform: scale(1.3);
 }
 
-/* responsive design - L to M screen 1200px and down */
+/* responsive design */
+
+/* L to M screen 1200px and down */
 
 @media screen and (max-width: 1200px) {
-    
+    #container {
+        height: 600px;
+    }
 }
