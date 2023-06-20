@@ -200,7 +200,7 @@ footer p {
 }
 
 .social-link:hover {
-    transform: scale(1.2);
+    color: #d4a53e;
 }
 
 /* Partners image */
