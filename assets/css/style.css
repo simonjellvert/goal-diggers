@@ -80,27 +80,75 @@ p {
 /* billboard and article */
 
 #container {
+    height: 900px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box-left {
+    width: 50%;
+    float: left;
+    padding: 50px;
+}
+
+.content-left {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#box-right {
+    width: 50%;
+    float: right;
+}
+
+.content-right img {
+    width: 80%;
+    height: auto;
+}
+
+/*
+#container {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
     align-items: center;
     height: 800px;
     overflow: hidden;
+    margin-top: 30px;
 }
-
-.content {
+*/
+/*
+.content-left {
     width: 50%;
     float: left;
-    vertical-align: middle;
     text-align: center;
-    padding-left: 50px;
 }
+*/
+/*
+.content-right {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+*/
+/*
+#container img {
+    width: 40%;
+    height: auto;
+}
+*/
 
+/*
 #container img {
     float: right;
-    max-width: 50%;
-    max-height: 100%;
+    width: 40%;
+    height: auto;
     object-fit: cover;
 }
-
+*/
 /* contact page */
 
 #container-contact {
@@ -208,7 +256,9 @@ footer p {
 /* Partners image */
 
 #apparel {
-    padding: 30px;
+    margin-right: 10%;
+    width: 40%;
+    height: auto;
 }
 
 /* sponsors gallery */
@@ -221,7 +271,6 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
     margin-bottom: 50px;
 }
 
@@ -245,8 +294,8 @@ footer p {
 
 /* L to M screen 1200px and down */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     #container {
-        height: 600px;
+        height: 500px;
     }
 }
