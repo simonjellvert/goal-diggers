@@ -125,6 +125,7 @@ p {
     align-items: center;
     vertical-align: middle;
     height: 800px;
+    width: 100%;
     text-transform: uppercase;
 }
 
@@ -282,19 +283,47 @@ footer p {
     
     #container-home {
         height: 500px;
+        width: 100%;
     }
 
     #container-partner {
         height: 500px;
-
+        width: 100%;
     }
 
+    #container-contact {
+        height: 650px;
+    }
+
+    .content-right {
+        margin-right: 50px;
+    }
+
+    .content-contact {
+        width: 450px;
+    }
+
+    .text-input {
+        width: 80%;
+    }
+
+    .message-input {
+        width: 80%;
+    }
 }
 
 /* S screen */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 
+    #container-contact {
+        height: 500px;
+    }
+
+    .content-contact {
+        width: 80%;
+        margin-top: 15%;
+    }
 
 
 }
