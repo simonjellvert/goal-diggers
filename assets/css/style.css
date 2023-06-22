@@ -79,7 +79,15 @@ p {
 
 /* billboard and article */
 
-#container {
+#container-home {
+    height: 700px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-partner {
     height: 650px;
     padding-top: 30px;
     display: flex;
@@ -97,7 +105,6 @@ p {
     width: 100%;
     text-align: center;
     vertical-align: middle;
-
 }
 
 #box-right {
@@ -112,48 +119,6 @@ p {
     padding-left: 70px;
 }
 
-/*
-#container {
-    display: flex;
-    justify-content: center;
-    vertical-align: center;
-    align-items: center;
-    height: 800px;
-    overflow: hidden;
-    margin-top: 30px;
-}
-*/
-/*
-.content-left {
-    width: 50%;
-    float: left;
-    text-align: center;
-}
-*/
-/*
-.content-right {
-    width: 50%;
-    float: right;
-    text-align: center;
-}
-*/
-/*
-#container img {
-    width: 40%;
-    height: auto;
-}
-*/
-
-/*
-#container img {
-    float: right;
-    width: 40%;
-    height: auto;
-    object-fit: cover;
-}
-*/
-/* contact page */
-
 #container-contact {
     display: flex;
     justify-content: center;
@@ -166,6 +131,8 @@ p {
 .content-contact {
     text-align: center;
 }
+
+/* Contact page */
 
 .form {
     color: white;
@@ -257,18 +224,10 @@ footer p {
     color: #d4a53e;
 }
 
-/* Partners image */
-
-/*#apparel {
-    margin-right: 10%;
-    width: 40%;
-    height: auto;
-}
-*/
-/* sponsors gallery */
+/* Sponsors section */
 
 #sponsors {
-    width: auto;
+    width: 100%;
     height: auto;
     flex-wrap: wrap;
     clear: both;
@@ -299,19 +258,22 @@ footer p {
 /* S to M screen 1200px and down */
 
 @media screen and (max-width: 900px) {
-    #container {
+    #container-home {
         height: 500px;
-        padding-top: 0px;
     }
-    #container-contact {
+
+    #container-partner {
+        height: 500px;
+
+    }
+    
+    .content-right {
+        margin-right: 50px;
+    }
+
+    .content-contact {
+        width: 50%;
     }
 
 }
 
-/* M to L screen 1200px and down */
-
-@media screen and (max-width: 1200px) {
-    #container {
-        height: 500px;
-    }
-}
