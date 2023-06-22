@@ -305,8 +305,10 @@ footer p {
     }
 
     #container-partner {
-        height: 400px;
+        height: 350px;
         width: 100%;
+        padding-top: 0;
+        align-items: stretch;
     }
 
     #container-contact {
@@ -326,21 +328,31 @@ footer p {
     }
 
     #box-right-home img {
-        width: 80%;
+        width: 100%;
         height: auto;
     }
 
     #box-left {
-        width: 80%;
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .content-right {
         margin-right: 50px;
     }
 
+    .content-right-home img {
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+    }
+
     .content-contact {
         width: 80%;
         border: none;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .text-input {
@@ -364,6 +376,7 @@ footer p {
 
     #container-home {
         height: 900px;
+        padding-top: 0;
     }
 
     #container-contact {
