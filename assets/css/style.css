@@ -255,9 +255,31 @@ footer p {
 
 /* responsive design */
 
-/* S to M screen 1200px and down */
+/* M screen 900px and down */
 
 @media screen and (max-width: 900px) {
+    
+    #navbar {
+    height: 130px;
+    }
+
+    #logo {
+        margin-left: 30px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 50px;
+        line-height: 25px;
+        padding: 0;
+    }
+
+    #menu li {
+        margin-right: 50px;
+    }
+    
     #container-home {
         height: 500px;
     }
@@ -266,14 +288,13 @@ footer p {
         height: 500px;
 
     }
-    
-    .content-right {
-        margin-right: 50px;
-    }
-
-    .content-contact {
-        width: 50%;
-    }
 
 }
 
+/* S screen */
+
+@media screen and (max-width: 450px) {
+
+
+
+}
