@@ -2,7 +2,7 @@
 
 This website is a plattform for our fans and partners to get familiar with our team. It's also a plattform for veteran tournaments to be able to invite the team to their upcoming events.
 
-![Mock up of resposive design on different screen sizes](assets/images/mock-up_generator_pp1.jpg)
+![Mock up of resposive design on different screen sizes](https://imgur.com/c78yuVl)
 
 ---
 
@@ -12,19 +12,19 @@ This website is a plattform for our fans and partners to get familiar with our t
 
 All three pages has a navbar in which you can browse through the pages. I added a logo on the top left which links to "Home"-page. The menu has a hover effect which highlights hovered element with the same color as the gold-part of our apparels, with an active 2px line showing the user which page is active.
 
-![Screenshot of navbar](assets/images/navbar.jpg)
+![Screenshot of navbar](https://imgur.com/UzlluGh)
 
 ### **Footer**
 
 In the footer I've added a link to our Instagram page with a hover affect that turns the icon into the golden color of our apparels.
 
-![Screenshot of footer](assets/images/footer.jpg)
+![Screenshot of footer](https://imgur.com/bwzB0VS)
 
 ### **Home page**
 
 The landing page informs the user who the Goal Diggers are and how they came around. Goal Diggers logoype floats to the right side of the page to add some style.
 
-![Screenshotof home page](assets/images/home.jpg)
+![Screenshotof home page](https://imgur.com/6FDWhVD)
 
 ### **Partners page**
 
@@ -32,11 +32,11 @@ On the Partners page we show some gratitude for our partners/sponsors who have m
 We also have a link that sets up an e-mail to our genereal manager if the user is interested in becoming a partner to the team.
 On the right hand side we hade a image of our apparel that shows the user how the teams jersey look.
 
-![Screenshot of partners page](assets/images/partners.jpg)
+![Screenshot of partners page](https://imgur.com/bLPkK7t)
 
 Below this section we have a gallery of logotypes of the teams current sponsors, each one with a direct link to their own websites. To highlight the hovered logotype we added an increasing effect.
 
-![Screenshot of sponsors logotypes on the partners page](assets/images/sponsors.jpg)
+![Screenshot of sponsors logotypes on the partners page](https://imgur.com/XfVDsG7)
 
 ### **Contact page\***
 
@@ -44,7 +44,7 @@ On the contact page the user gets familiar on who they can contact if they e.g w
 
 We've added som styling to the images and a link to an e-mail within the envelope icon, which is turning in to the golden color when hovered.
 
-![Screenshot of contact page](assets/images/contact.jpg)
+![Screenshot of contact page](https://imgur.com/sNSM0VE)
 
 ### **Features for the future**
 
@@ -85,17 +85,17 @@ The **HTML** code is tested in W3 Validator and passed with only one warning:
   to be visible for the users.
 
 Result
-![Screenshot of W3 validator](assets/images/w3_html-validator_result.jpg)
+![Screenshot of W3 validator](https://imgur.com/QCPI5KA)
 
 The **CSS** code is tested in Jigsaw Validator and also passed with only one warning:
 
 - The import of font style from Google Fonts.
 
 _Waring:_
-![Screenshot of warning from Jigsaw CSS Validator](assets/images/jigsaw_css-validator_warning.jpg)
+![Screenshot of warning from Jigsaw CSS Validator](https://imgur.com/ejN0nFI)
 
 _Result;_
-![Screenshot of result from Jigsaw CSS Validator](assets/images/jigsaw_css-validator_result.jpg)
+![Screenshot of result from Jigsaw CSS Validator](https://imgur.com/udDNoWL)
 
 ### **Unfixed bugs**
 
