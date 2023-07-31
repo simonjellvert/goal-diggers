@@ -50,7 +50,7 @@ We've added som styling to the images and a link to an e-mail within the envelop
 
 Here are some of the features that will be added in the future:
 
-- Adress/map to the office under contact page.
+- Player videos/highlights will be added when content is available.
 - Webshop page with Goal Diggers merchandise.
 - Tournaments page (when the team has participated in more than one) with statistics.
 - Roster page with information and statistcs of the players.
