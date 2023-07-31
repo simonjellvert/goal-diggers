@@ -458,8 +458,13 @@ footer p {
         width: 100%;
     }
 
+    footer {
+        height: auto;
+        bottom: 5px;
+        margin-top: 5px; 
+    }
+
     .footer {
         height: auto;
-        bottom: 10px;
     }
 }
