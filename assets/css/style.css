@@ -311,7 +311,11 @@ footer p {
 @media screen and (max-width: 900px) {
 
     #navbar {
-        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
     }
 
     #menu {
@@ -460,6 +464,7 @@ footer p {
 
     footer {
         height: auto;
+        position: relative;
         bottom: 5px;
         margin-top: 5px; 
     }
