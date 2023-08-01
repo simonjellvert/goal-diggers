@@ -232,9 +232,9 @@ footer {
     width: 100%;
     background-color: white;
     margin-top: 30px;
-    bottom: 0;
+    bottom: 5px;
     text-align: center;
-    position: fixed;
+    position: relative;
 }
 
 footer p {
