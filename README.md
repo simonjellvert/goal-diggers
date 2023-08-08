@@ -46,18 +46,35 @@ Below this section we have a gallery of logotypes of the teams current sponsors,
 
 ### **Contact page**
 
-On the contact page the user gets familiar on who they can contact if they e.g wants to invite the team to a tournament or have any other questions they want to ask.
+On the contact page the user gets familiar on who they can contact if they e.g wants to invite the team to a tournament or have any other questions they want to ask. Via a link in the main text the user can also choose to leave their contact info by filling out a form.
 
-I've added som styling to the images and a link to an e-mail within the envelope icon, which is turning in to the golden color when hovered.
+I've added som styling to the images and a link to an e-mail within the envelope icon, which is turning in to the golden color when hovered. The link to contact form is also turning gold whn hovered.
 
 I also added a map for the user to see where the team play their games so it's easy for the user to navigate if they want to come see the team.
 
 ![Screenshot of contact page](/docs/gd_contact-page.png)
 
+### **Contact form**
+
+On the contact page the user can click on a link to fill in their contact info, so that the team can contact the user.
+The user is required to fill out their email address and phone number, and hit "SEND". 
+The page is styled as the rest of the website with the gold and white colors and black(ish) font. The "SEND" button is styled with a hovering effect that turns the button from black to gold.
+
+Note: The form is a mock up.
+
+![Screenshot of contact-form](/docs/gd_contact-form.png)
+
+### **Response message**
+
+When the user hit the "SEND" button they get a response message thanking them for reaching out and informing that the team will get back to them as soon as possible. 
+The user can head back to the original page via links in the menu or clicking on the text which says "HOME PAGE". The "HOME PAGE" is a link and turns gold when hovered.
+
+![Screenshot of response message](/docs/gd_response-massage.png)
+
 ### **404 Error page**
 
 Sometimes things go wrong, so to make it easy to the user to navigate back to the main page I a
-created a 404 error page which informs the user that something is wrong and how to turn around and head the right direction again. In the error message I have a link to the home page and they can also use the navbar to head back to the page they where looking for.
+created a 404 error page which informs the user that something is wrong and how to turn around and head the right direction again. In the error message I have a link to the home page and they can also use the navbar to head back to the page they where looking for. The link in the text turns gold when hovered.
 
 ![Screenshot of 404 error page](/docs/gd_error-page.png)
 
@@ -68,7 +85,8 @@ created a 404 error page which informs the user that something is wrong and how 
 Here are some of the features that will be added in the future:
 
 - Player videos/highlights will be added when content is available. Because of the teams short time of life such content is not available at this time.
-- Updated sponsors page with new logotypes (if necessary)
+- Turn the mock up contact form in to a real one.
+- Updated sponsors page with new/more logotypes (when the team gets more sponsors).
 - Webshop page with Goal Diggers merchandise.
 - Tournaments page (when the team has participated in more than one) with statistics.
 - Roster page with information and statistcs of the players.
@@ -103,7 +121,7 @@ Since I've learned a lot more about using flex since this code was written I wou
 
 #### HTML
 
-The **HTML** code is tested in W3 Validator and passed with only one warning:
+The **Home page** code is tested in W3 Validator and passed with only one warning:
 
 - The **404 Error** page is warning for the H1 on line 20, which is a bit wierd because it doesen't give me the same warning on the other html pages, which uses the same code.
 
