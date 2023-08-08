@@ -368,7 +368,11 @@ footer p {
 }
 
 .error-message a {
-    color: black;
+    color: #2a2d2c;
+}
+
+.error-message a:hover {
+    color: #d4a53e;
 }
 
 /* responsive design 900px and down */

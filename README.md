@@ -2,7 +2,7 @@
 
 This website is a plattform for our fans and partners to get familiar with our team. It's also a plattform for veteran tournaments to be able to invite the team to their upcoming events.
 
-Visit our website [here](https://simonjellvert.github.io/goal-diggers/).
+Visit our website [here](https://simonjellvert.github.io/goal-diggers/)!
 
 ![Mock up of resposive design on different screen sizes](/docs/gd_mock-up.png)
 *Note that the mock up doesn't look exactly like the real product on each platform.*
