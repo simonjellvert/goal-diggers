@@ -2,7 +2,9 @@
 
 This website is a plattform for our fans and partners to get familiar with our team. It's also a plattform for veteran tournaments to be able to invite the team to their upcoming events.
 
-![Mock up of resposive design on different screen sizes](../assets/images/gd_mock-up.png)
+Visit our website [here](https://simonjellvert.github.io/goal-diggers/).
+
+![Mock up of resposive design on different screen sizes](/docs/gd_mock-up.png)
 *Note that the mock up doesn't look exactly like the real product on each platform.*
 
 ---
@@ -13,20 +15,20 @@ This website is a plattform for our fans and partners to get familiar with our t
 
 All three pages has a navbar in which you can browse through the pages. I added a logo on the top left which links to "Home"-page. The menu has a hover effect which highlights hovered element with the same color as the gold-part of our apparels, with an active 2px line showing the user which page is active.
 
-![Screenshot of navbar](../assets/images/gd_navbar.png)
+![Screenshot of navbar](/docs/gd_navbar.png)
 
 ### **Footer**
 
 In the footer I've added a link to our Instagram page with a hover affect that turns the icon into the golden color of our apparels. I've also added a copyright text.
 
-![Screenshot of footer](../assets/images/gd_footer.png)
+![Screenshot of footer](/docs/gd_footer.png)
 
 ### **Home page**
 
 The landing page informs the user who the Goal Diggers are and how they came around. It describes the passion the players have for the game and why they keep on doing this.
 The design of having a short text on one side and an image on the other was to have a minimalistic design since the team doesn't have a lot of content to apply in this early stage of life. The team have different kinds of lofotypes but design wise I think that the black and white version suits this minimalistic design the best and was easiest to create a redline throughout the site.
 
-![Screenshot of home page](../assets/images/gd_home-page.png)
+![Screenshot of home page](/docs/gd_home-page.png)
 
 ### **Partners page**
 
@@ -36,11 +38,11 @@ On the right hand side we have an image of our apparel that shows the user how t
 
 I hold on to the minimalistic design on this page aswell to keep it simple for the user to find information. The apparell image is not the coolest image to use but the idea is to vusualize for potential partners how they can expose their brand together with the team.
 
-![Screenshot of partners page](../assets/images/gd_partner-page.png)
+![Screenshot of partners page](/docs/gd_partner-page.png)
 
 Below this section we have a gallery of logotypes of the teams current sponsors, each one with a direct link to their own websites. To highlight the hovered logotype I added an increasing effect.
 
-![Screenshot of sponsors logotypes on the partners page](../assets/images/gd_partner-logos.png)
+![Screenshot of sponsors logotypes on the partners page](/docs/gd_partner-logos.png)
 
 ### **Contact page**
 
@@ -50,14 +52,14 @@ I've added som styling to the images and a link to an e-mail within the envelope
 
 I also added a map for the user to see where the team play their games so it's easy for the user to navigate if they want to come see the team.
 
-![Screenshot of contact page](../assets/images/gd_contact-page.png)
+![Screenshot of contact page](/docs/gd_contact-page.png)
 
 ### **404 Error page**
 
 Sometimes things go wrong, so to make it easy to the user to navigate back to the main page I a
 created a 404 error page which informs the user that something is wrong and how to turn around and head the right direction again. In the error message I have a link to the home page and they can also use the navbar to head back to the page they where looking for.
 
-![Screenshot of 404 error page](../assets/images/gd_error-page.png)
+![Screenshot of 404 error page](/docs/gd_error-page.png)
 
 ---
 
@@ -106,17 +108,17 @@ The **HTML** code is tested in W3 Validator and passed with only one warning:
 - The **404 Error** page is warning for the H1 on line 20, which is a bit wierd because it doesen't give me the same warning on the other html pages, which uses the same code.
 
 *Result:*
-![Screenshot of W3 validator](../assets/images/gd_html-validator.png)
+![Screenshot of W3 validator](/docs/gd_html-validator.png)
 
 *Warning:*
-![Screenshot of W3 Validator warning](../assets/images/gd_html-validator.warning.png)
+![Screenshot of W3 Validator warning](/docs/gd_html-validator.warning.png)
 
 #### CSS
 
 The **CSS** code is tested in Jigsaw Validator and also passed with no warnings:
 
 *Result:*
-![Screenshot of result from Jigsaw CSS Validator](../assets/images/gd_css-validator.png)
+![Screenshot of result from Jigsaw CSS Validator](/docs/gd_css-validator.png)
 
 ### **Bugs**
 
@@ -124,7 +126,6 @@ Bugs detected during testing:
 
 - Menu and logo not filling the upper area of a small screen, tested on Iphone (now fixed).
 - Menu was divided into two columns when the logo and menu wasn't centered on the screen. Fixed that by using media queires.
-
 
 ---
 
