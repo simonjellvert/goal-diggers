@@ -118,14 +118,13 @@ The **CSS** code is tested in Jigsaw Validator and also passed with no warnings:
 *Result:*
 ![Screenshot of result from Jigsaw CSS Validator](../assets/images/gd_css-validator.png)
 
-### **Unfixed bugs**
+### **Bugs**
 
 Bugs detected during testing:
 
 - Menu and logo not filling the upper area of a small screen, tested on Iphone (now fixed).
 - Menu was divided into two columns when the logo and menu wasn't centered on the screen. Fixed that by using media queires.
 
-Otherwise no bugs detected.
 
 ---
 
