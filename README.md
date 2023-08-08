@@ -140,17 +140,14 @@ Since I've learned a lot more about using flex since this code was written I wou
 
 - The **404 Error page** code is tested in W3 Validator and passed with no warnings.
 
-*Result:*
 ![Screenshot of W3 validator](/docs/gd_html-val_404-page.png)
 
 #### CSS
 
 The **CSS** code is tested in Jigsaw Validator and passed with only one warning about the import of Google fonts:
 
-*Result:*
 ![Screenshot of result from Jigsaw CSS Validator](/docs/gd_css-val.png)
 
-*Warning*
 ![Screenshot of warning from Jigsaw CSS Validator](/docs/gd_css-val_warning.png)
 
 ### **Bugs**
